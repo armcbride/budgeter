@@ -1,0 +1,27 @@
+{
+  "name": "budgeter",
+  "version": "1.0.0",
+  "description": "PWA website for budget tracking, even offline.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armcbride/budgeter.git"
+  },
+  "author": "armcbride",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/armcbride/budgeter/issues"
+  },
+  "homepage": "https://github.com/armcbride/budgeter#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lite-server": "^2.5.4",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0"
+  }
+}
