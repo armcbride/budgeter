@@ -79,8 +79,8 @@ function populateChart() {
 }
 
 function sendTransaction(isAdding) {
-  let nameEl = document.querySelector("#t-name");
-  let amountEl = document.querySelector("#t-amount");
+  let nameEl = document.querySelector("#transaction-name");
+  let amountEl = document.querySelector("#transaction-amount");
   let errorEl = document.querySelector(".form .error");
 
   // validate form
